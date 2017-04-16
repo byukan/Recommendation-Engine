@@ -3,7 +3,7 @@ package org.apache.spark.mllib.recommendation
 // MatrixFactorizationModel's constructor is private and we are using
 // its constructor in order to save and load the model
 
-import recommender.ALSAlgorithmParams
+import com.orange.ALSAlgorithmParams
 
 import org.apache.predictionio.controller.IPersistentModel
 import org.apache.predictionio.controller.IPersistentModelLoader

@@ -1,0 +1,34 @@
+2017-04-15 19:21:53,115 ERROR org.apache.predictionio.tools.console.Template$ [main] - Unable to subscribe.
+2017-04-15 19:22:19,758 ERROR org.apache.predictionio.tools.console.App$ [main] - App MyApp1 already exists. Aborting.
+2017-04-15 19:22:38,202 INFO  org.apache.predictionio.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2017-04-15 19:22:38,210 INFO  org.apache.predictionio.tools.console.App$ [main] -               MyApp1 |    1 | brFC3KfgirYxKunho2MCO4JrP4lpv4Y4-PjcxQSQxlV0jm663-IFHdBZDYy80ZJd | (all)
+2017-04-15 19:22:38,211 INFO  org.apache.predictionio.tools.console.App$ [main] - Finished listing 1 app(s).
+2017-04-15 19:23:25,413 INFO  org.apache.predictionio.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2017-04-15 19:23:25,420 INFO  org.apache.predictionio.tools.console.App$ [main] -               MyApp1 |    1 | brFC3KfgirYxKunho2MCO4JrP4lpv4Y4-PjcxQSQxlV0jm663-IFHdBZDYy80ZJd | (all)
+2017-04-15 19:23:25,421 INFO  org.apache.predictionio.tools.console.App$ [main] - Finished listing 1 app(s).
+2017-04-15 19:24:14,116 INFO  org.apache.predictionio.tools.console.App$ [main] - Initialized Event Store for this app ID: 2.
+2017-04-15 19:24:14,143 INFO  org.apache.predictionio.tools.console.App$ [main] - Created new app:
+2017-04-15 19:24:14,144 INFO  org.apache.predictionio.tools.console.App$ [main] -       Name: recommender
+2017-04-15 19:24:14,144 INFO  org.apache.predictionio.tools.console.App$ [main] -         ID: 2
+2017-04-15 19:24:14,145 INFO  org.apache.predictionio.tools.console.App$ [main] - Access Key: YRFUZ2ZTQdhq6qxqwSNp_GJ0-2VmUQcup_NZ7mKpzy0fgkRNod3YUXql-zVMjpID
+2017-04-15 19:25:03,384 INFO  org.apache.predictionio.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2017-04-15 19:25:03,392 INFO  org.apache.predictionio.tools.console.App$ [main] -               MyApp1 |    1 | brFC3KfgirYxKunho2MCO4JrP4lpv4Y4-PjcxQSQxlV0jm663-IFHdBZDYy80ZJd | (all)
+2017-04-15 19:25:03,394 INFO  org.apache.predictionio.tools.console.App$ [main] -          recommender |    2 | YRFUZ2ZTQdhq6qxqwSNp_GJ0-2VmUQcup_NZ7mKpzy0fgkRNod3YUXql-zVMjpID | (all)
+2017-04-15 19:25:03,394 INFO  org.apache.predictionio.tools.console.App$ [main] - Finished listing 2 app(s).
+2017-04-15 19:26:58,284 INFO  org.apache.predictionio.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2017-04-15 19:26:58,291 INFO  org.apache.predictionio.tools.console.App$ [main] -               MyApp1 |    1 | brFC3KfgirYxKunho2MCO4JrP4lpv4Y4-PjcxQSQxlV0jm663-IFHdBZDYy80ZJd | (all)
+2017-04-15 19:26:58,293 INFO  org.apache.predictionio.tools.console.App$ [main] -          recommender |    2 | YRFUZ2ZTQdhq6qxqwSNp_GJ0-2VmUQcup_NZ7mKpzy0fgkRNod3YUXql-zVMjpID | (all)
+2017-04-15 19:26:58,293 INFO  org.apache.predictionio.tools.console.App$ [main] - Finished listing 2 app(s).
+2017-04-15 19:28:01,731 INFO  org.apache.predictionio.tools.console.Console$ [main] - Inspecting PredictionIO...
+2017-04-15 19:28:01,735 INFO  org.apache.predictionio.tools.console.Console$ [main] - PredictionIO 0.10.0-incubating is installed at /Users/justw/apache-predictionio-0.10.0-incubating/PredictionIO-0.10.0-incubating
+2017-04-15 19:28:01,736 INFO  org.apache.predictionio.tools.console.Console$ [main] - Inspecting Apache Spark...
+2017-04-15 19:28:01,747 INFO  org.apache.predictionio.tools.console.Console$ [main] - Apache Spark is installed at /Users/justw/apache-predictionio-0.10.0-incubating/PredictionIO-0.10.0-incubating/vendors/spark-1.5.1-bin-hadoop2.6
+2017-04-15 19:28:01,784 INFO  org.apache.predictionio.tools.console.Console$ [main] - Apache Spark 1.5.1 detected (meets minimum requirement of 1.3.0)
+2017-04-15 19:28:01,785 INFO  org.apache.predictionio.tools.console.Console$ [main] - Inspecting storage backend connections...
+2017-04-15 19:28:01,806 INFO  org.apache.predictionio.data.storage.Storage$ [main] - Verifying Meta Data Backend (Source: PGSQL)...
+2017-04-15 19:28:02,625 INFO  org.apache.predictionio.data.storage.Storage$ [main] - Verifying Model Data Backend (Source: PGSQL)...
+2017-04-15 19:28:02,630 INFO  org.apache.predictionio.data.storage.Storage$ [main] - Verifying Event Data Backend (Source: PGSQL)...
+2017-04-15 19:28:02,690 INFO  org.apache.predictionio.data.storage.Storage$ [main] - Test writing to Event Store (App Id 0)...
+2017-04-15 19:28:02,787 INFO  org.apache.predictionio.tools.console.Console$ [main] - (sleeping 5 seconds for all messages to show up...)
+2017-04-15 19:28:07,793 INFO  org.apache.predictionio.tools.console.Console$ [main] - Your system is all ready to go.
+2017-04-15 19:30:33,545 ERROR org.apache.predictionio.tools.console.Template$ [main] - Unable to subscribe.

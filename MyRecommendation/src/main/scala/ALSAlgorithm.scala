@@ -1,4 +1,4 @@
-package recommender
+package com.orange
 
 import org.apache.predictionio.controller.PAlgorithm
 import org.apache.predictionio.controller.Params

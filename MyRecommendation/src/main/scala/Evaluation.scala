@@ -1,4 +1,4 @@
-package recommender
+package com.orange
 
 import org.apache.predictionio.controller.Evaluation
 import org.apache.predictionio.controller.OptionAverageMetric
@@ -9,8 +9,8 @@ import org.apache.predictionio.controller.EngineParams
 import org.apache.predictionio.controller.MetricEvaluator
 
 // Usage:
-// $ pio eval recommender.RecommendationEvaluation \
-//   recommender.EngineParamsList
+// $ pio eval com.orange.RecommendationEvaluation \
+//   com.orange.EngineParamsList
 
 case class PrecisionAtK(k: Int, ratingThreshold: Double = 2.0)
     extends OptionAverageMetric[EmptyEvaluationInfo, Query, PredictedResult, ActualResult] {
