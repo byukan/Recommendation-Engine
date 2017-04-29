@@ -1,0 +1,96 @@
+start engine{
+  start postgres server:
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+if not already created,   create database for preditioIO:
+createdb pio
+  start predictionio eventserver
+$ pio eventserver &
+
+$ pio status
+status should say Your system is all ready to go.
+}
+
+bibliography{
+  gensim
+  http://predictionio.incubator.apache.org/templates/recommendation/evaluation/
+}
+
+#4/27{
+  The "Recommendation" template provides an Evaluation.scala to do cross validation and get precision at k.  It worked on my local machine with a sample dataset.  The "Universal Recommender" template we're using doesn't already have evaluation, but we could try adding it.
+
+
+  com.orange
+
+  pio build --verbose
+  pio train
+  pio deploy
+
+
+  pio eval com.orange.RecommendationEvaluation com.orange.EngineParamsList
+}
+
+#4/26{
+  Evaluation Explained (Recommendation)
+  http://predictionio.incubator.apache.org/templates/recommendation/evaluation/
+
+  the evaluation module streamlines the model tuning process
+
+}
+
+#4/15{
+
+to fix pio train, change number of iterations to 10 in the engine.json file.
+  "numIterations": 10,
+
+  deployed engine process:
+http://localhost:8000
+
+url:
+http://localhost:7070/events.json?accessKey=YRFUZ2ZTQdhq6qxqwSNp_GJ0-2VmUQcup_NZ7mKpzy0fgkRNod3YUXql-zVMjpID
+
+ACCESS_KEY=YRFUZ2ZTQdhq6qxqwSNp_GJ0-2VmUQcup_NZ7mKpzy0fgkRNod3YUXql-zVMjpID
+}
+
+
+
+#4/13{
+  start postgres server:
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+if not already created,   create database for preditioIO:
+createdb pio
+  start predictionio eventserver
+$ pio eventserver &
+  status should say Your system is all ready to go.
+$ pio status
+
+
+python /Users/justw/MyRecommendation/data/import_eventserver.py
+
+query eventserver to see events:
+curl -i -X GET "http://localhost:7070/events.json?accessKey=$ACCESS_KEY"
+
+Go to following URL with your browser:
+
+http://localhost:7070/events.json?accessKey=&lt;brFC3KfgirYxKunho2MCO4JrP4lpv4Y4-PjcxQSQxlV0jm663-IFHdBZDYy80ZJd>
+
+
+  http://predictionio.incubator.apache.org/templates/recommendation/quickstart/
+
+http://predictionio.incubator.apache.org/templates/recommendation/quickstart/
+
+  pio app new MyApp1
+[INFO] [App$] Initialized Event Store for this app ID: 1.
+[INFO] [App$] Created new app:
+[INFO] [App$]       Name: MyApp1
+[INFO] [App$]         ID: 1
+[INFO] [App$] Access Key: brFC3KfgirYxKunho2MCO4JrP4lpv4Y4-PjcxQSQxlV0jm663-IFHdBZDYy80ZJd
+
+ACCESS_KEY=brFC3KfgirYxKunho2MCO4JrP4lpv4Y4-PjcxQSQxlV0jm663-IFHdBZDYy80ZJd
+}
+
+PATH=$PATH:/Users/justw/apache-predictionio-0.10.0-incubating/PredictionIO-0.10.0-incubating/bin; export PATH
+
+
+
+
+PATH=$PATH:/Users/justw/apache-predictionio-0.10.0-incubating/PredictionIO-0.10.0-incubating/bin; export PATH
