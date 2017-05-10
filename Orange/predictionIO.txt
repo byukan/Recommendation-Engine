@@ -15,6 +15,11 @@ bibliography{
   http://predictionio.incubator.apache.org/templates/recommendation/evaluation/
 }
 
+#5/3{
+  install elasticsearch and hbase
+  http://predictionio.incubator.apache.org/install/install-sourcecode/
+}
+
 #4/27{
   The "Recommendation" template provides an Evaluation.scala to do cross validation and get precision at k.  It worked on my local machine with a sample dataset.  The "Universal Recommender" template we're using doesn't already have evaluation, but we could try adding it.
 
