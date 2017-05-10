@@ -1,0 +1,105 @@
+{
+  "courses": [
+    {
+      "courseId": "cc_cond_a01_it_enus", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "254741_eng", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "80476_eng", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "mo_bgpw_a04_dt_enus", 
+      "courseName": "Finalizing a PowerPoint 2013 Presentation", 
+      "courseUrl": "https://idpfds.sso.infra.ftgroup/affwebservices/public/saml2sso?SPID=ole-01&amp;ProtocolBinding=urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST&RelayState=/LMS/LoDetails/DetailsLo.aspx?loid=mo_bgpw_a04_dt_enus&query=?s=1&q=orange%20learning"
+    }, 
+    {
+      "courseId": "259935_eng", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "41612", 
+      "courseName": "Joomla! 24-Hour Trainer", 
+      "courseUrl": "https://idpfds.sso.infra.ftgroup/affwebservices/public/saml2sso?SPID=ole-01&amp;ProtocolBinding=urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST&RelayState=/LMS/LoDetails/DetailsLo.aspx?loid=41612&query=?s=1&q=orange%20learning"
+    }, 
+    {
+      "courseId": "41059", 
+      "courseName": "CCNA Cisco Certified Network Associate Study Guide Seventh Edition (Exam 640-802)", 
+      "courseUrl": "https://idpfds.sso.infra.ftgroup/affwebservices/public/saml2sso?SPID=ole-01&amp;ProtocolBinding=urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST&RelayState=/LMS/LoDetails/DetailsLo.aspx?loid=41059&query=?s=1&q=orange%20learning"
+    }, 
+    {
+      "courseId": "PD8111000000", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "cc_icir_a04_it_enus", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "259928_eng", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "mnt70480", 
+      "courseName": "Mentoring 70-480 Programming in HTML5 with JavaScript and CSS3", 
+      "courseUrl": "https://idpfds.sso.infra.ftgroup/affwebservices/public/saml2sso?SPID=ole-01&amp;ProtocolBinding=urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST&RelayState=/LMS/LoDetails/DetailsLo.aspx?loid=mnt70480&query=?s=1&q=orange%20learning"
+    }, 
+    {
+      "courseId": "df_ahmr_a01_it_enus", 
+      "courseName": "Apache Hadoop", 
+      "courseUrl": "https://idpfds.sso.infra.ftgroup/affwebservices/public/saml2sso?SPID=ole-01&amp;ProtocolBinding=urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST&RelayState=/LMS/LoDetails/DetailsLo.aspx?loid=df_ahmr_a01_it_enus&query=?s=1&q=orange%20learning"
+    }, 
+    {
+      "courseId": "wd_htme_a08_it_enus", 
+      "courseName": "HTML5 and JavaScript", 
+      "courseUrl": "https://idpfds.sso.infra.ftgroup/affwebservices/public/saml2sso?SPID=ole-01&amp;ProtocolBinding=urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST&RelayState=/LMS/LoDetails/DetailsLo.aspx?loid=wd_htme_a08_it_enus&query=?s=1&q=orange%20learning"
+    }, 
+    {
+      "courseId": "jl_spng_a01_it_enus", 
+      "courseName": "Java Spring: Spring Application Basics", 
+      "courseUrl": "https://idpfds.sso.infra.ftgroup/affwebservices/public/saml2sso?SPID=ole-01&amp;ProtocolBinding=urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST&RelayState=/LMS/LoDetails/DetailsLo.aspx?loid=jl_spng_a01_it_enus&query=?s=1&q=orange%20learning"
+    }, 
+    {
+      "courseId": "sd_adwf_a01_it_enus", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "cc_cond_a05_it_enus", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "211948_eng", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "mo_bgex_a06_dt_enus", 
+      "courseName": "Excel 2007 Charts, Pictures, Themes, and Styles", 
+      "courseUrl": "https://idpfds.sso.infra.ftgroup/affwebservices/public/saml2sso?SPID=ole-01&amp;ProtocolBinding=urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST&RelayState=/LMS/LoDetails/DetailsLo.aspx?loid=mo_bgex_a06_dt_enus&query=?s=1&q=orange%20learning"
+    }, 
+    {
+      "courseId": "cc_cond_a08_it_enus", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "TEAM0214000000", 
+      "courseName": null, 
+      "courseUrl": null
+    }
+  ], 
+  "employeeID": "ZQCP1460"
+}

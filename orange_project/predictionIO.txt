@@ -1,0 +1,23 @@
+task_list{
+  continue getting predictionio set up
+}
+
+#4/14{
+  python SDK for predictioIO
+   - deploy engine as web servicce, return predicted resutls in JSON format
+}
+
+#4/13{
+  installed PredictioIO
+  meeting about recommendation system, movie ratings, surprise library
+}
+
+#4/12{
+  where do i clone repository
+}
+
+
+word doc by Tara for environment setup
+
+git clone https://gitlab.os/hranalytics/Tara.git
+galvanize.justwjr login for octopus gitlab

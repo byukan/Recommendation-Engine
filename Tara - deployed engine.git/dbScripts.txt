@@ -1,0 +1,38 @@
+DROP TABLE IF EXISTS `courses`;
+CREATE TABLE `courses` (
+  `title` varchar(1000) NOT NULL,
+  `currentId` varchar(10000) DEFAULT NULL,
+  `allIds` varchar(10000) DEFAULT NULL,
+  `updateCount` int(11) NOT NULL,
+  PRIMARY KEY (`title`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `lookupcourses`;
+CREATE TABLE `lookupcourses` (
+  `courseId` varchar(1000) NOT NULL,
+  PRIMARY KEY (`courseId`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `recommendations`;
+CREATE TABLE `recommendations` (
+  `userId` varchar(500) NOT NULL,
+  `courseId` varchar(500) NOT NULL,
+  `date` bigint(20) NOT NULL,
+  `taken` tinyint(1) NOT NULL,
+  `recommendationId` int(11) NOT NULL AUTO_INCREMENT,
+  `feedback` varchar(500) DEFAULT NULL,
+  `rating` float DEFAULT NULL,
+  PRIMARY KEY (`recommendationId`)
+) ENGINE=MyISAM AUTO_INCREMENT=106 DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `takencourses`;
+CREATE TABLE `takencourses` (
+  `userId` varchar(1000) NOT NULL,
+  `courseId` varchar(1000) NOT NULL,
+  `pk` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`pk`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+ALTER TABLE `lookupcourses` ADD INDEX(`courseId`);
+ALTER TABLE `takencourses` ADD INDEX(`userId`);
+ALTER TABLE `takencourses` ADD INDEX(`courseId`);

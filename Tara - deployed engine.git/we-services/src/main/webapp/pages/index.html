@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Dashboard</h1>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-comments fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <div id="recommended" class="huge">0</div>
+                                <div>Recommendations</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div onclick='updateRecommended()' id="recommendRefresh" class="panel-footer">
+                            <span class="pull-left">Refresh</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="panel panel-green">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-tasks fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <div id="taken" class="huge">0</div>
+                                <div>Recommendations Taken</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div onclick='updateTaken()' class="panel-footer">
+                            <span class="pull-left">Refresh</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1>Aggregated Results</h1>
+        </div>
+        <div class="row">
+            <table id="agg_table">
+                <tr>
+                    <th>#</th>
+                    <th>UserId</th>
+                    <th>Total Count</th>
+                    <th>Taken</th>
+                </tr>
+            </table>
+
+        </div>
+
+        <div>
+            <h1>Individual Results</h1>
+        </div>
+        <div class="row">
+            <table id="ind_table">
+                <tr>
+                    <th>#</th>
+                    <th>UserId</th>
+                    <th>CourseId</th>
+                    <th>Taken</th>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="vendor/metisMenu/metisMenu.min.js"></script>
+
+
+<!-- Custom Theme JavaScript -->
+<script src="dist/js/sb-admin-2.js"></script>
+
+<script>
+
+    function updateRecommended() {
+        $.ajax({
+            url: "https://octopus.orangesv.us/tara/TaraServices/rest/tara/getRecommendations/1/1/false/ALL",
+            type: "GET",
+            username: 'tara.shared',
+            password: 'taraorange',
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function (data) {
+                console.log(data);
+                document.getElementById("recommended").innerHTML = data.count;
+
+            }
+
+        });
+    }
+    function updateTaken() {
+        $.ajax({
+            url: "https://octopus.orangesv.us/tara/TaraServices/rest/tara/getRecommendations/1/1/false/TAKEN",
+            type: "GET",
+            crossDomain: true,
+            username: 'tara.shared',
+            password: 'taraorange',
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function (data) {
+                console.log(data);
+                document.getElementById("taken").innerHTML = data.count;
+
+            }
+        });
+    }
+    function updateAggregatedTable(data) {
+        var total;
+        var taken;
+        $.ajax({
+            url: "https://octopus.orangesv.us/tara/TaraServices/rest/tara/getRecommendationsByUser/1/1/false/ALL/-1",
+            type: "GET",
+            crossDomain: true,
+            username: 'tara.shared',
+            password: 'taraorange',
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function (data) {
+
+                total = data.userInfo;
+            }
+        });
+
+        $.ajax({
+            url: "https://octopus.orangesv.us/tara/TaraServices/rest/tara/getRecommendationsByUser/1/1/false/TAKEN/-1",
+            type: "GET",
+            crossDomain: true,
+            username: 'tara.shared',
+            password: 'taraorange',
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function (data) {
+                taken = data.userInfo;
+                var map = {};
+                console.log('taken:');
+                console.log(taken);
+                console.log('total')
+                console.log( total);
+                if (total) {
+                    var len = total.length;
+                    var takenLen = taken.length;
+                    var txt = "";
+                    if (len > 0) {
+                        for (var i = 0; i < len; i++) {
+                            map[total[i].userId] = 0;
+                        }
+                        for (var i = 0; i < takenLen; i++) {
+                                map[taken[i].userId] = taken[i].count;
+                        }
+                        for (var i = 0; i < len; i++) {
+
+                            txt += "<tr><td>" + (i + 1) + "</td><td>" + total[i].userId + "</td><td>" + total[i].count + "</td><td>" + map[total[i].userId] + "</td></tr>";
+
+
+                        }
+                        if (txt != "") {
+                            $("#agg_table").append(txt).removeClass("hidden");
+                        }
+                    }
+                    else {
+                        for (var i = 0; i < total.length; i++) {
+                            txt += "<tr><td>" + (i + 1) + "</td><td>" + total[i].userId + "</td><td>" + total[i].count + "</td><td>" + 0 + "</td></tr>";
+
+                        }
+                        if (txt != "") {
+                            $("#agg_table").append(txt).removeClass("hidden");
+                        }
+
+                    }
+                }
+
+            }
+        });
+
+
+    }
+
+    function updateDetailedTable(data) {
+
+
+        $.ajax({
+            url: "https://octopus.orangesv.us/tara/TaraServices/rest/tara/getDetailedRecommendationsByUser/1/1/false/ALL/-1",
+            type: "GET",
+            crossDomain: true,
+            username: 'tara.shared',
+            password: 'taraorange',
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            },
+            success: function (data) {
+                data = data.recommendations;
+                console.log(data);
+                if (data) {
+                    var len = data.length;
+                    var txt = "";
+                    if (len > 0) {
+                        for (var i = 0; i < len; i++) {
+
+                            var checked = "unchecked";
+                            if (data[i].taken == 1) {
+                                checked = "checked";
+                            }
+                            txt += "<tr><td>" + (i + 1) + "</td><td>" + data[i].userId + "</td><td>" + data[i].courseId + "</td><td>" + "<input type='checkbox' onclick='return false;'   " + checked + ">" + "</td></tr>";
+
+                        }
+                        if (txt != "") {
+                            $("#ind_table").append(txt).removeClass("hidden");
+                        }
+                    }
+                }
+
+            }
+        });
+
+
+    }
+
+    window.onload = function () {
+        updateRecommended();
+        updateTaken();
+        updateAggregatedTable();
+        updateDetailedTable();
+    };
+
+</script>
+</body>
+<style>
+
+    @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+    body {
+        background-color: #3e94ec;
+        font-family: "Roboto", helvetica, arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-rendering: optimizeLegibility;
+    }
+
+    div.table-title {
+        display: block;
+        margin: auto;
+        max-width: 600px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .table-title h3 {
+        color: #fafafa;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Roboto", helvetica, arial, sans-serif;
+        text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+        text-transform: uppercase;
+    }
+
+    /*** Table Styles **/
+
+    .table-fill {
+        background: white;
+        border-radius: 3px;
+        border-collapse: collapse;
+        height: 320px;
+        margin: auto;
+        max-width: 600px;
+        padding: 5px;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        animation: float 5s infinite;
+    }
+
+    th {
+        color: #D5DDE5;;
+        background: #1b1e24;
+        border-bottom: 4px solid #9ea7af;
+        border-right: 1px solid #343a45;
+        font-size: 23px;
+        font-weight: 100;
+        padding: 24px;
+        text-align: left;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+    }
+
+    th:first-child {
+        border-top-left-radius: 3px;
+    }
+
+    th:last-child {
+        border-top-right-radius: 3px;
+        border-right: none;
+    }
+
+    tr {
+        border-top: 1px solid #C1C3D1;
+        border-bottom-: 1px solid #C1C3D1;
+        color: #666B85;
+        font-size: 16px;
+        font-weight: normal;
+        text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+    }
+
+    tr:hover td {
+        background: #4E5066;
+        color: #FFFFFF;
+        border-top: 1px solid #22262e;
+        border-bottom: 1px solid #22262e;
+    }
+
+    tr:first-child {
+        border-top: none;
+    }
+
+    tr:last-child {
+        border-bottom: none;
+    }
+
+    tr:nth-child(odd) td {
+        background: #EBEBEB;
+    }
+
+    tr:nth-child(odd):hover td {
+        background: #4E5066;
+    }
+
+    tr:last-child td:first-child {
+        border-bottom-left-radius: 3px;
+    }
+
+    tr:last-child td:last-child {
+        border-bottom-right-radius: 3px;
+    }
+
+    td {
+        background: #FFFFFF;
+        padding: 20px;
+        text-align: left;
+        vertical-align: middle;
+        font-weight: 300;
+        font-size: 18px;
+        text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+        border-right: 1px solid #C1C3D1;
+    }
+
+    td:last-child {
+        border-right: 0px;
+    }
+
+    th.text-left {
+        text-align: left;
+    }
+
+    th.text-center {
+        text-align: center;
+    }
+
+    th.text-right {
+        text-align: right;
+    }
+
+    td.text-left {
+        text-align: left;
+    }
+
+    td.text-center {
+        text-align: center;
+    }
+
+    td.text-right {
+        text-align: right;
+    }
+
+</style>
+
+
+</html>

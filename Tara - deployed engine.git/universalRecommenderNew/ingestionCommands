@@ -1,0 +1,96 @@
+   43  java
+  212  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar 
+  213  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar org.InputValidator
+  214  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar org.InputValidator.App
+  216  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar org.InputValidator.App
+  217  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar org.InputValidator.Appexit
+  221  history |grep java
+  227  history |grep java
+  229  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.InputValidator.App
+  231  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.InputValidator.App ../immuta/Blog Project/Blog Project.csv , 5 1 2 3 3 true >BlobProjectStats
+  233  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.InputValidator.App ../immuta/Blog Project/Blog Project.csv , 5 1 2 3 3 true >BlobProjectStats
+  234  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.InputValidator.App "../immuta/Blog Project/Blog Project.csv" , 5 1 2 3 3 true >BlobProjectStats
+  235  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.InputValidator.App ../immuta/Blog\ Project/Blog\ Project.csv , 5 1 2 3 3 true >BlobProjectStats
+  239  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.InputValidator.App ../immuta/Blog\ Project/Blog\ Project.csv , 5 1 2 3 3 true >BlobProjectStats
+  241  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.InputValidator.App "../immuta/Blog Social Group/Blog Social Group.csv" , 5 1 2 3 3 true >SocialGroupStats
+  243  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.InputValidator.App "../immuta/Project/Project.csv" , 5 1 2 3 3 true >SocialGroupStats
+  256  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv , 33 "\",'" "" "" amaZOnReportClean ,
+  257  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv , 33 "\",'" "" "" amazOnReportClean ,
+  258  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv , 33 "\",'" "" "" amazonReportClean ,
+  262  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv , 33 "\",'" "" "" amazonReportClean ,
+  270  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv , 33 "\",'" "" "" amazonReportClean ,
+  271  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv "\",\"" 33 "\",'" "" "" amazonReportClean ,
+  277  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv "," 33 "\",'" "" "" amazonReportClean ,
+  281  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/User\ Relation/User\ Relation.csv "," 6 "\",'" "" "" userRelCleanes,
+  282  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/User\ Relation/User\ Relation.csv "," 6 "\",'" "" "" userRelCleanes ,
+  293  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/User\ Relation/User\ Relation.csv "," 6 "\",'" "" "" userRelCleanes ,
+  324  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/User\ Relation/User\ Relation.csv "," 6 "\",'" "" "" userRelCleanes ,
+  328  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ HRI/Users\ Info\ HRI.csv "," 9 "\",'" "" "" userRInfoHriCleaned ,
+  330  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ HRI/Users\ Info\ HRI.csv "," 9 "\",'" "" "" userInfoHriCleaned ,
+  334  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ Plazza/Users\ Info\ Plazza.csv "," 11 "\",'" "" "" userInfoPlazaCleaned ,
+  336  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ Plazza/Users\ Info\ Plazza.csv "\",\"" 11 "\",'" "" "" userInfoPlazaCleaned ,
+  339  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ Plazza/Users\ Info\ Plazza.csv "\",\"" 11 "\",'" "" "" userInfoPlazaCleaned "\t"
+  341  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ Plazza/Users\ Info\ Plazza.csv "\",\"" 11 "\",'" "" "" userInfoPlazaCleaned "\\t"
+  343  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ Plazza/Users\ Info\ Plazza.csv "\",\"" 11 "\",'" "" "" userInfoPlazaCleaned ","
+  347  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ Plazza/Users\ Info\ Plazza.csv "\",\"" 11 "\",'" "" "" userInfoPlazaCleaned "@#$"
+  349  history |grep java
+  350  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ HRI/Users\ Info\ HRI.csv "," 
+  351  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ HRI/Users\ Info\ HRI.csv "," 9 "\",'" "" "" userInfoHriCleaned ,
+  352  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ HRI/Users\ Info\ HRI.csv "," 9 "\",'" "" "" userInfoHriCleaned 
+  353  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ HRI/Users\ Info\ HRI.csv "," 9 "\",'" "" "" userInfoHriCleaned @#$
+  354  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/User\ Relation/User\ Relation.csv "," 6 "\
+  355  history |grep java
+  356  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/User\ Relation/User\ Relation.csv "," 6 "\",'" "" "" userRelCleanes @#$
+  358  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv "," 33 "\",'" "" "" amazonReportClean ,
+  359  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv "\",\"" 33 "\",'" "" "" amazonReportClean @#$
+  372  history |grep java
+  373  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ Plazza/Users\ Info\ Plazza.csv "\",\"" 11 "\",'" "" "" userInfoPlazaCleaned "@#$"
+  374  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ HRI/Users\ Info\ HRI.csv "," 9 "\",'" "" "" userInfoHriCleaned @#$
+  375  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/User\ Relation/User\ Relation.csv "," 6 "\",'" "" "" userRelCleanes @#$ 
+  377  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv "\",\""33 "\",'" "" "" amazonReportClean @#$
+  378  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Amazon\ Report/Amazon\ Report.csv "\",\"" 33 "\",'" "" "" amazonReportClean @#$
+  389  java -cp InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.UipIngestor http://localhost:7070 abc ../cleanedData/userInfoPlazaCleaned "\\t"
+  390  history |grep java
+  394  history |grep java
+  396  history |grep java
+  397  java -cp ../Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.DataCleaner ../immuta/Users\ Info\ Plazza/Users\ Info\ Plazza.csv "\",\"" 11 "\",'" "" "" userInfoPlazaCleaned "@#$"
+  399  history |grep java
+  400  java -cp InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.UipIngestor http://
+  401  java -cp InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.UipIngestor http://localhost:7070 abc ../cleanedData/userInfoPlazaCleaned "\\t"
+  404  java -cp InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.UipIngestor http://localhost:7070 iuDHCVKFWoJmmjPTqULNTHcOpdVUrpgFREtK6JsgzDec0NSB6Nn0noZhDu_1rPxJ userInfoPlazaCleaned "@#\\$"
+  406  java -cp InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 iuDHCVKFWoJmmjPTqULNTHcOpdVUrpgFREtK6JsgzDec0NSB6Nn0noZhDu_1rPxJ ../cleanedData/amazonReportClean "@#\\$"
+  408  java -cp InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 iuDHCVKFWoJmmjPTqULNTHcOpdVUrpgFREtK6JsgzDec0NSB6Nn0noZhDu_1rPxJ ../cleanedData/amazonReportClean "@#\\$"
+  626  history |grep java
+  627  java -cp InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.UipIngestor http://localhost:7070 iuDHCVKFWoJmmjPTqULNTHcOpdVUrpgFREtK6JsgzDec0NSB6Nn0noZhDu_1rPxJ userInfoPlazaCleaned "@#\\$"
+  628  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.UipIngestor http://localhost:7070 iuDHCVKFWoJmmjPTqULNTHcOpdVUrpgFREtK6JsgzDec0NSB6Nn0noZhDu_1rPxJ /cleanedData/userInfoPlazaCleaned "@#\\$"
+  630  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.UipIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X /cleanedData/userInfoPlazaCleaned "@#\\$"
+  631  history |grep java
+  633  java -cp InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngesto
+  634  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X /cleanedData/amazonReportClean "@#\\$"
+  635  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X /cleanedData/amazonReportClean "@#\\$" courses @#$
+  638  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.UipIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X /cleanedData/userInfoPlazaCleaned "@#\\$"
+  639  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X /cleanedData/amazonReportClean "@#\\$" courses @#$
+  655  history |grep java
+  656  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.InputFileExperiment abc 1 1 1 1
+  660  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.InputFileExperiment abc "\"\n\"" "\",\"" 33
+  662  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.InputFileExperiment abc "\"\n\"" "\",\"" 33
+  664  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataPreparator.InputFileExperiment abc "\"\n\"" "\",\"" 33
+  673  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X abc "\"\n\"" "\",\"" 33
+  676  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X abc "\"\n\"" "\",\"" 33
+  679  history |grep java
+  680  nohup java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X amazon "\"\n\"" "\",\"" 33 &
+  684  nohup java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.SocialGroupIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X socialGroup.csv "\",\"" &
+  686  nohup java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.GroupMemeberIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X groupMember.csv "\",\"" &
+  688  nohup java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.GroupMemeberIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X groupMember.csv "\",\"" &
+  690  nohup java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.GroupMemberIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X groupMember.csv "\",\"" &
+  702  history |grep java
+  704  nohup java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X amazon "\"\n\"" "\",\"" 33 &
+  711  history |grep java
+  712  java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.UipIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X /cleanedData/userInfoPlazaCleaned "@#\\$"
+  725  history |grep java
+  726  nohup java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X amazon "\"\n\"" "\",\"" 33 &
+  735  history |grep java
+  736  nohup java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.SocialGroupIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X socialGroup.csv "\",\"" &
+  738  nohup java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.GroupMemberIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X groupMember.csv "\",\"" &
+  763  history |grep java
+  764  history |grep java >ingestionCommands

@@ -1,0 +1,33 @@
+{
+  "engine_config": "./engine.json",
+
+  "splitting": {
+    "version": "1",
+    "source_file": "hdfs:...<PUT SOME PATH>...",
+    "train_file": "hdfs:...<PUT SOME PATH>...train",
+    "test_file": "hdfs:...<PUT SOME PATH>...test",
+    "type": "date",
+    "train_ratio": 0.8,
+    "random_seed": 29750,
+    "split_event": "<SOME NAME>"
+  },
+
+  "reporting": {
+    "file": "./report.xlsx",
+    "csv_dir": "./report",
+    "use_uuid": true
+  },
+
+  "testing": {
+    "map_k": 10,
+    "non_zero_users_file": "./non_zero_users.dat",
+    "consider_non_zero_scores_only": true,
+    "custom_combos": {
+      "event_groups": [["ev2", "ev3"], ["ev6", "ev8", "ev9"]]
+    }
+  },
+
+  "spark": {
+    "master": "spark://<some-url>:7077"
+  }
+}

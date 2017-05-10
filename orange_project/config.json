@@ -1,0 +1,51 @@
+{
+  "engine_config": "./engine.json",
+
+  "splitting": {
+    "version": "1",
+    "source_file": "/Tara/universalRecommenderNew/store_events/part-00000",
+    "train_file": "/Tara/universalRecommenderNew/store_events/train",
+    "test_file": "/Tara/universalRecommenderNew/store_events/test",
+    "type": "date",
+    "train_ratio": 0.8,
+    "random_seed": 29750,
+    "split_event": "courseTaken"
+  },
+
+  "reporting": {
+    "file": "./report.xlsx",
+    "csv_dir": "./report",
+    "use_uuid": true
+  },
+
+  "testing": {
+    "map_k": 20,
+    "non_zero_users_file": "./non_zero_users.dat",
+    "consider_non_zero_scores_only": true,
+    "custom_combos": {
+      "event_groups": [["ev2", "ev3"], ["ev6", "ev8", "ev9"]]
+    }
+  },
+
+  "spark": {
+    "master": "spark://http://172.17.0.6:7077"
+  }
+}
+
+
+    "master": "spark://<some-url>:7077"
+
+--master: The master URL for the cluster (e.g. spark://23.195.26.187:7077)
+  --master spark://207.184.161.138:7077 \
+
+    "master": "spark://master:7077"
+
+    "master": "spark://http://172.17.0.1:7077"
+    "master": "spark://http://172.30.89.210:7077"
+
+    "master": "spark://f186347626b2:7077"
+    "master": "spark://http://172.17.0.6:4040"
+    "master": "spark://http://172.17.0.6:4040"
+    "master": "spark://http://172.17.0.6:4040"
+    172.17.0.1
+    172.30.89.210

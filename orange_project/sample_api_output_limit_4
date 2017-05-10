@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {
+      "courseId": "cc_cond_a01_it_enus", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "254741_eng", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "80476_eng", 
+      "courseName": null, 
+      "courseUrl": null
+    }, 
+    {
+      "courseId": "mo_bgpw_a04_dt_enus", 
+      "courseName": "Finalizing a PowerPoint 2013 Presentation", 
+      "courseUrl": "https://idpfds.sso.infra.ftgroup/affwebservices/public/saml2sso?SPID=ole-01&amp;ProtocolBinding=urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST&RelayState=/LMS/LoDetails/DetailsLo.aspx?loid=mo_bgpw_a04_dt_enus&query=?s=1&q=orange%20learning"
+    }
+  ], 
+  "employeeID": "ZQCP1460"
+}

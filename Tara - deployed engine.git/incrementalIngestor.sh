@@ -1,0 +1,1 @@
+java -cp /Tara/InputValidator/target/InputValidator-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.tara.dataIngestor.AmazonReportIngestor http://localhost:7070 W-BPHhPngnOaDdWVDrvaJr_let3ZBR4Fqq3uDA7hElvkw_SiUE0C65Z-ecntJc4X $1 "\"\r\n\"" "\",\"" 37 /temp/courses @# /temp/courses 60 true http://172.30.89.210:8081

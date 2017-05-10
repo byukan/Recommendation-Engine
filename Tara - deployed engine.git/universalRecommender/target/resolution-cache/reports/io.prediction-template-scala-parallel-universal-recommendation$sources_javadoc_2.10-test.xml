@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="io.prediction"
+		module="template-scala-parallel-universal-recommendation$sources_javadoc_2.10"
+		revision="0.2.3"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161219125039"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.10.6" status="release" pubdate="20150918143605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2683" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="scalap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40843" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scalap\srcs\scalap-2.10.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-sources.jar"/>
+					</artifact>
+					<artifact name="scalap" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1251901" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scalap\docs\scalap-2.10.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.6/scalap-2.10.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.10.6" status="release" pubdate="20150918143547" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2843" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2059305" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scala-compiler\srcs\scala-compiler-2.10.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-sources.jar"/>
+					</artifact>
+					<artifact name="scala-compiler" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="12498610" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scala-compiler\docs\scala-compiler-2.10.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-native_2.10">
+			<revision name="3.2.11" status="release" pubdate="20141024060851" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2837" time="0" location="C:\Users\kaab\.ivy2\cache\org.json4s\json4s-native_2.10\ivy-3.2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.11/json4s-native_2.10-3.2.11.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="3.2.11" rev-constraint-default="3.2.11" rev-constraint-dynamic="3.2.11" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="json4s-native_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7423" time="0" location="C:\Users\kaab\.ivy2\cache\org.json4s\json4s-native_2.10\srcs\json4s-native_2.10-3.2.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.11/json4s-native_2.10-3.2.11-sources.jar"/>
+					</artifact>
+					<artifact name="json4s-native_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="430561" time="0" location="C:\Users\kaab\.ivy2\cache\org.json4s\json4s-native_2.10\docs\json4s-native_2.10-3.2.11-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.10/3.2.11/json4s-native_2.10-3.2.11-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.mahout" name="mahout-spark_2.10">
+			<revision name="0.11.1" status="release" pubdate="20151107002211" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="16928" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-spark_2.10\ivy-0.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-spark_2.10/0.11.1/mahout-spark_2.10-0.11.1.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="0.11.1" rev-constraint-default="0.11.1" rev-constraint-dynamic="0.11.1" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="mahout-spark_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="566448" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-spark_2.10\docs\mahout-spark_2.10-0.11.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-spark_2.10/0.11.1/mahout-spark_2.10-0.11.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="mahout-spark_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="89335" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-spark_2.10\srcs\mahout-spark_2.10-0.11.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-spark_2.10/0.11.1/mahout-spark_2.10-0.11.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.1.7" status="release" pubdate="20150414120531" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.comm/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3490" time="0" location="C:\Users\kaab\.ivy2\cache\org.xerial.snappy\snappy-java\ivy-1.1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="1.1.1.7" rev-constraint-default="1.1.1.7" rev-constraint-dynamic="1.1.1.7" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="588258" time="0" location="C:\Users\kaab\.ivy2\cache\org.xerial.snappy\snappy-java\srcs\snappy-java-1.1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7-sources.jar"/>
+					</artifact>
+					<artifact name="snappy-java" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="101523" time="0" location="C:\Users\kaab\.ivy2\cache\org.xerial.snappy\snappy-java\docs\snappy-java-1.1.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.mahout" name="mahout-math-scala_2.10">
+			<revision name="0.11.1" status="release" pubdate="20151107002021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="15">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="16628" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-math-scala_2.10\ivy-0.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-math-scala_2.10/0.11.1/mahout-math-scala_2.10-0.11.1.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="0.11.1" rev-constraint-default="0.11.1" rev-constraint-dynamic="0.11.1" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="mahout-math-scala_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116775" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-math-scala_2.10\srcs\mahout-math-scala_2.10-0.11.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-math-scala_2.10/0.11.1/mahout-math-scala_2.10-0.11.1-sources.jar"/>
+					</artifact>
+					<artifact name="mahout-math-scala_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="863812" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-math-scala_2.10\docs\mahout-math-scala_2.10-0.11.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-math-scala_2.10/0.11.1/mahout-math-scala_2.10-0.11.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526144339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3708" time="0" location="C:\Users\kaab\.ivy2\cache\log4j\log4j\ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="log4j" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1491397" time="0" location="C:\Users\kaab\.ivy2\cache\log4j\log4j\docs\log4j-1.2.17-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-javadoc.jar"/>
+					</artifact>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="C:\Users\kaab\.ivy2\cache\log4j\log4j\srcs\log4j-1.2.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.scopt" name="scopt_2.10">
+			<revision name="3.3.0" status="release" pubdate="20141215062234" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scopt/scopt" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2830" time="0" location="C:\Users\kaab\.ivy2\cache\com.github.scopt\scopt_2.10\ivy-3.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.10/3.3.0/scopt_2.10-3.3.0.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="3.3.0" rev-constraint-default="3.3.0" rev-constraint-dynamic="3.3.0" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="scopt_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7136" time="0" location="C:\Users\kaab\.ivy2\cache\com.github.scopt\scopt_2.10\srcs\scopt_2.10-3.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.10/3.3.0/scopt_2.10-3.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="scopt_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="378702" time="0" location="C:\Users\kaab\.ivy2\cache\com.github.scopt\scopt_2.10\docs\scopt_2.10-3.3.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.10/3.3.0/scopt_2.10-3.3.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-core_2.10">
+			<revision name="3.2.11" status="release" pubdate="20141024060933" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3124" time="0" location="C:\Users\kaab\.ivy2\cache\org.json4s\json4s-core_2.10\ivy-3.2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="3.2.11" rev-constraint-default="3.2.11" rev-constraint-dynamic="3.2.11" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="json4s-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39377" time="0" location="C:\Users\kaab\.ivy2\cache\org.json4s\json4s-core_2.10\srcs\json4s-core_2.10-3.2.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11-sources.jar"/>
+					</artifact>
+					<artifact name="json4s-core_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="704296" time="0" location="C:\Users\kaab\.ivy2\cache\org.json4s\json4s-core_2.10\docs\json4s-core_2.10-3.2.11-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.6" status="release" pubdate="20131009085654" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<metadata-artifact status="no" details="" size="4165" time="0" location="C:\Users\kaab\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26517" time="0" location="C:\Users\kaab\.ivy2\cache\com.thoughtworks.paranamer\paranamer\srcs\paranamer-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6-sources.jar"/>
+					</artifact>
+					<artifact name="paranamer" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="90529" time="0" location="C:\Users\kaab\.ivy2\cache\com.thoughtworks.paranamer\paranamer\docs\paranamer-2.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch" name="elasticsearch-spark_2.10">
+			<revision name="2.1.0.Beta4" status="release" pubdate="20150428184543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/elastic/elasticsearch-hadoop" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3087" time="0" location="C:\Users\kaab\.ivy2\cache\org.elasticsearch\elasticsearch-spark_2.10\ivy-2.1.0.Beta4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-spark_2.10/2.1.0.Beta4/elasticsearch-spark_2.10-2.1.0.Beta4.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="2.1.0.Beta4" rev-constraint-default="2.1.0.Beta4" rev-constraint-dynamic="2.1.0.Beta4" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="elasticsearch-spark_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="185234" time="0" location="C:\Users\kaab\.ivy2\cache\org.elasticsearch\elasticsearch-spark_2.10\docs\elasticsearch-spark_2.10-2.1.0.Beta4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-spark_2.10/2.1.0.Beta4/elasticsearch-spark_2.10-2.1.0.Beta4-javadoc.jar"/>
+					</artifact>
+					<artifact name="elasticsearch-spark_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240103" time="0" location="C:\Users\kaab\.ivy2\cache\org.elasticsearch\elasticsearch-spark_2.10\srcs\elasticsearch-spark_2.10-2.1.0.Beta4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-spark_2.10/2.1.0.Beta4/elasticsearch-spark_2.10-2.1.0.Beta4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.6" status="release" pubdate="20150918143538" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="8">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2680" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.2.3" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="32315043" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scala-reflect\docs\scala-reflect-2.10.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="435463" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.10.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.6" status="release" pubdate="20150918143528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="19">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2517" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.2.3" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1065535" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.10.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="32315043" time="0" location="C:\Users\kaab\.ivy2\cache\org.scala-lang\scala-library\docs\scala-library-2.10.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.mahout" name="mahout-hdfs">
+			<revision name="0.11.1" status="release" pubdate="20151107001547" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="20635" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-hdfs\ivy-0.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-hdfs/0.11.1/mahout-hdfs-0.11.1.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="0.11.1" rev-constraint-default="0.11.1" rev-constraint-dynamic="0.11.1" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="mahout-hdfs" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="89095" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-hdfs\docs\mahout-hdfs-0.11.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-hdfs/0.11.1/mahout-hdfs-0.11.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="mahout-hdfs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20353" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-hdfs\srcs\mahout-hdfs-0.11.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-hdfs/0.11.1/mahout-hdfs-0.11.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="4.6.1" status="release" pubdate="20140127232852" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="19017" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.lucene\lucene-analyzers-common\ivy-4.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.6.1/lucene-analyzers-common-4.6.1.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="4.6.1" rev-constraint-default="4.6.1" rev-constraint-dynamic="4.6.1" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2631622" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.lucene\lucene-analyzers-common\docs\lucene-analyzers-common-4.6.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.6.1/lucene-analyzers-common-4.6.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-analyzers-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1611315" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.lucene\lucene-analyzers-common\srcs\lucene-analyzers-common-4.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.6.1/lucene-analyzers-common-4.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090320010832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4747" time="0" location="C:\Users\kaab\.ivy2\cache\commons-cli\commons-cli\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="commons-cli" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48726" time="0" location="C:\Users\kaab\.ivy2\cache\commons-cli\commons-cli\srcs\commons-cli-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar"/>
+					</artifact>
+					<artifact name="commons-cli" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="214274" time="0" location="C:\Users\kaab\.ivy2\cache\commons-cli\commons-cli\docs\commons-cli-1.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.12" status="release" pubdate="20130129204727" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2820" time="0" location="C:\Users\kaab\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\ivy-1.9.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="1.9.12" rev-constraint-default="1.9.12" rev-constraint-dynamic="1.9.12" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4374898" time="0" location="C:\Users\kaab\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\docs\jackson-mapper-asl-1.9.12-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12-javadoc.jar"/>
+					</artifact>
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="547967" time="0" location="C:\Users\kaab\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\srcs\jackson-mapper-asl-1.9.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.mahout" name="mahout-math">
+			<revision name="0.11.1" status="release" pubdate="20151107001525" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="17280" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-math\ivy-0.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-math/0.11.1/mahout-math-0.11.1.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="0.11.1" rev-constraint-default="0.11.1" rev-constraint-dynamic="0.11.1" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="mahout-math" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3490241" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-math\docs\mahout-math-0.11.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-math/0.11.1/mahout-math-0.11.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="mahout-math" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1194294" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.mahout\mahout-math\srcs\mahout-math-0.11.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mahout/mahout-math/0.11.1/mahout-math-0.11.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tdunning" name="t-digest">
+			<revision name="3.1" status="release" pubdate="20150406060516" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tdunning/t-digest" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3777" time="0" location="C:\Users\kaab\.ivy2\cache\com.tdunning\t-digest\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="t-digest" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="101235" time="0" location="C:\Users\kaab\.ivy2\cache\com.tdunning\t-digest\docs\t-digest-3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="t-digest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39638" time="0" location="C:\Users\kaab\.ivy2\cache\com.tdunning\t-digest\srcs\t-digest-3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20150327015005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4785" time="0" location="C:\Users\kaab\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50813" time="0" location="C:\Users\kaab\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="211235" time="0" location="C:\Users\kaab\.ivy2\cache\org.slf4j\slf4j-api\docs\slf4j-api-1.7.12-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="14.0.1" status="release" pubdate="20130315045719" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3942" time="0" location="C:\Users\kaab\.ivy2\cache\com.google.guava\guava\ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="guava" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4750302" time="0" location="C:\Users\kaab\.ivy2\cache\com.google.guava\guava\docs\guava-14.0.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1170076" time="0" location="C:\Users\kaab\.ivy2\cache\com.google.guava\guava\srcs\guava-14.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.xstream" name="xstream">
+			<revision name="1.4.4" status="release" pubdate="20130119203030" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="BSD style" url="http://xstream.codehaus.org/license.html"/>
+				<metadata-artifact status="no" details="" size="14767" time="0" location="C:\Users\kaab\.ivy2\cache\com.thoughtworks.xstream\xstream\ivy-1.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="1.4.4" rev-constraint-default="1.4.4" rev-constraint-dynamic="1.4.4" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="xstream" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1821830" time="0" location="C:\Users\kaab\.ivy2\cache\com.thoughtworks.xstream\xstream\docs\xstream-1.4.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="xstream" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="353106" time="0" location="C:\Users\kaab\.ivy2\cache\com.thoughtworks.xstream\xstream\srcs\xstream-1.4.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="4.6.1" status="release" pubdate="20140127232738" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="18855" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.lucene\lucene-core\ivy-4.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.6.1/lucene-core-4.6.1.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="4.6.1" rev-constraint-default="4.6.1" rev-constraint-dynamic="4.6.1" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="lucene-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1842114" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.lucene\lucene-core\srcs\lucene-core-4.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.6.1/lucene-core-4.6.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4658644" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.lucene\lucene-core\docs\lucene-core-4.6.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.6.1/lucene-core-4.6.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.2" status="release" pubdate="20130403003128" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9766" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.commons\commons-math3\ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="commons-math3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2005074" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.commons\commons-math3\srcs\commons-math3-3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar"/>
+					</artifact>
+					<artifact name="commons-math3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5393423" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.commons\commons-math3\docs\commons-math3-3.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.12" status="release" pubdate="20130129204708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2594" time="0" location="C:\Users\kaab\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\ivy-1.9.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="1.9.12" rev-constraint-default="1.9.12" rev-constraint-dynamic="1.9.12" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4374898" time="0" location="C:\Users\kaab\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\docs\jackson-core-asl-1.9.12-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12-javadoc.jar"/>
+					</artifact>
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240357" time="0" location="C:\Users\kaab\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\srcs\jackson-core-asl-1.9.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-ast_2.10">
+			<revision name="3.2.11" status="release" pubdate="20141024060823" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2681" time="0" location="C:\Users\kaab\.ivy2\cache\org.json4s\json4s-ast_2.10\ivy-3.2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="3.2.11" rev-constraint-default="3.2.11" rev-constraint-dynamic="3.2.11" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="json4s-ast_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7279" time="0" location="C:\Users\kaab\.ivy2\cache\org.json4s\json4s-ast_2.10\srcs\json4s-ast_2.10-3.2.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11-sources.jar"/>
+					</artifact>
+					<artifact name="json4s-ast_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="457045" time="0" location="C:\Users\kaab\.ivy2\cache\org.json4s\json4s-ast_2.10\docs\json4s-ast_2.10-3.2.11-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.1" status="release" pubdate="20111115122705" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8108" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="393048" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.commons\commons-lang3\srcs\commons-lang3-3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-lang3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1765707" time="0" location="C:\Users\kaab\.ivy2\cache\org.apache.commons\commons-lang3\docs\commons-lang3-3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xpp3" name="xpp3_min">
+			<revision name="1.1.4c" status="release" pubdate="20071201140642" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Indiana University Extreme! Lab Software License, vesion 1.1.1" url="http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/LICENSE.txt"/>
+				<license name="Public Domain" url="http://creativecommons.org/licenses/publicdomain"/>
+				<metadata-artifact status="no" details="" size="2866" time="0" location="C:\Users\kaab\.ivy2\cache\xpp3\xpp3_min\ivy-1.1.4c.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom"/>
+				<caller organisation="io.prediction" name="template-scala-parallel-universal-recommendation$sources_javadoc_2.10" conf="test, compile, runtime" rev="1.1.4c" rev-constraint-default="1.1.4c" rev-constraint-dynamic="1.1.4c" callerrev="0.2.3"/>
+				<artifacts>
+					<artifact name="xpp3_min" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37855" time="0" location="C:\Users\kaab\.ivy2\cache\xpp3\xpp3_min\srcs\xpp3_min-1.1.4c-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c-sources.jar"/>
+					</artifact>
+					<artifact name="xpp3_min" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="66756" time="0" location="C:\Users\kaab\.ivy2\cache\xpp3\xpp3_min\docs\xpp3_min-1.1.4c-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
