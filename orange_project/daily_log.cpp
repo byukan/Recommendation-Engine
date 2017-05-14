@@ -2,6 +2,40 @@ task list{
   apache predictionio
 }
 
+#5/11{
+  trying to run split or test on the engine in the docker container won't work
+  right now because i accidently deleted the exported data and cleared the
+  engine to try new input.  I thought the preparer and ingestor would work,
+  but they aren't updating the engine on docker -- i'm pretty sure it's the
+  port addresses in preparer.sh and ingestor.sh, which need to get configured; 
+   other than that, the analysis scripts in there are all set already
+
+   after you have a deployed engine, export all the event possibilities to a HDFS
+
+pio export --appid 10 --output /Tara/universalRecommenderNew/store_events
+
+   then run split:
+
+ split:
+ SPARK_HOME=/PredictionIO-0.10.0-incubating/vendors/spark-1.5.1-bin-hadoop2.6 PYTHONPATH=/PredictionIO-0.10.0-incubating/vendors/spark-1.5.1-bin-hadoop2.6/python:/PredictionIO-0.10.0-incubating/vendors/spark-1.5.1-bin-hadoop2.6/python/lib/py4j-0.9-src.zip ./map_test.py split
+
+next, Train and Deploy: Import the "train" dataset into the EventServer, train, and deploy the model. This can also be scripted but is not part of these scripts.
+
+ pio import --appid 10 --input /Tara/universalRecommenderNew/store_events/train.1
+
+ pio build --verbose
+ pio train
+
+
+finally, run test, which will output the report.xlsx file!:
+
+test:
+SPARK_HOME=/PredictionIO-0.10.0-incubating/vendors/spark-1.5.1-bin-hadoop2.6 PYTHONPATH=/PredictionIO-0.10.0-incubating/vendors/spark-1.5.1-bin-hadoop2.6/python:/PredictionIO-0.10.0-incubating/vendors/spark-1.5.1-bin-hadoop2.6/python/lib/py4j-0.9-src.zip ./map_test.py test --all
+
+
+}
+
+
 #5/8{
   deleted data on courserecommender app id 10
   used preparerNew.sh
