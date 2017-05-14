@@ -37,7 +37,7 @@ KeyError: 'itemScores'
 
 
 the response objects don't have the 'itemScores' key, was it modified from the original template?
-
+solution:  modify itemScores to "score"
 
 { "user": "de22719ee50124fdb8c09882bc19fde8"}
 
@@ -60,7 +60,7 @@ change "itemScore" to "score"
 
 
 start spark manually
-
+./sbin/start-master.sh
 http://spark.apache.org/docs/latest/spark-standalone.html
 
 have to create workers too
