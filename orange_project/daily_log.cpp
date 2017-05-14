@@ -2,6 +2,20 @@ task list{
   apache predictionio
 }
 
+#5/8{
+  deleted data on courserecommender app id 10
+  used preparerNew.sh
+    and ingestorNew.sh
+  waiting since 3:57p
+
+it was a mistake to clear the data in the engine and try to rerun the ingestor scripts
+exporting data to split won't work after resetting the data in the engine
+it needs to get redeployed, then tested to make sure that it gives recommendations
+with scores.
+
+  }
+}
+
 #5/5{
 scp -r root@f186347626b2:/ "C:\Users\Justin\Desktop"
 
@@ -76,16 +90,6 @@ http://f186347626b2:8080
 
   these scripts handle the transform from datasets to input events
   https://gitlab.os/hranalytics/Tara/tree/dev/InputValidator/src/main/scala/com/tara/dataIngestor
-}
-
-#5/8{
-  deleted data on courserecommender app id 10
-  used preparerNew.sh
-    and ingestorNew.sh
-  waiting since 3:57p
-
-
-  }
 }
 
 #5/4{
