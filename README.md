@@ -7,4 +7,4 @@
 ## Recommendation-Engine
 Apache PredictionIO (incubating)
 
-https://github.com/justwjr/analysis-tools
+https://github.com/byukan/analysis-tools
